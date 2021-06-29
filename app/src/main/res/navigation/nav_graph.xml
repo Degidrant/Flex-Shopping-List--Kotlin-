@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.flexeiprata.flexbuylist.ui.main.MainListFragment"
+        android:label="@string/main_list"
+        tools:layout="@layout/main_fragment">
+        <action
+            android:id="@+id/toItemList"
+            app:destination="@id/itemsListFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/to_settings"
+            app:destination="@id/settingsFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemsListFragment"
+        android:name="com.flexeiprata.flexbuylist.ui.main.ItemsListFragment"
+        android:label="@string/empty_label"
+        tools:layout="@layout/items_list_fragment">
+        <argument
+            android:name="parentID"
+            android:defaultValue="0"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.flexeiprata.flexbuylist.ui.main.SettingsFragment"
+        android:label="@string/settings_label" />
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.flexeiprata.flexbuylist.onboarding.ViewPagerFragment"
+        android:label="ViewPagerFragment">
+        <action
+            android:id="@+id/to_Main_Fragment"
+            app:destination="@id/mainFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/viewPagerFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

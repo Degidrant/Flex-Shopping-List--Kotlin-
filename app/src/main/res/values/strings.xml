@@ -1,0 +1,107 @@
+<resources>
+    <!-- Основные строки -->
+    <string name="app_name">Flex Shopping Lists</string>
+    <string name="main_list">Shopping Lists</string>
+    <string name="empty_label" translatable="false" />
+    <string name="settings_label">Settings</string>
+    <string name="modal_sheet_title">Add new list</string>
+    <string name="modal_sheet_title_hint">Enter the name of the list</string>
+    <string name="text_helper_title">List display name</string>
+    <string name="modal_sheet_desc_hint">Short description</string>
+    <string name="chip1">Shop</string>
+    <string name="chip2">Vegetables</string>
+    <string name="chip3">Tools</string>
+    <string name="modal_subtitle_1">Enter required data</string>
+    <string name="modal_subtitle_2">Select the desired icon</string>
+    <string name="dialog_adder_cant_hint">"Measurement "</string>
+    <string name="dialog_adder_header">Add to the list</string>
+    <string name="dialog_adder_name_hint">Item name</string>
+    <string name="dialog_adder_cant_count_hint">QTY</string>
+    <string name="dialog_adder_type_hint">Group (icon)</string>
+    <string name="adder_title">Add new item</string>
+    <string name="undo_message">%s - deleted.</string>
+    <string name="undo">Undo</string>
+    <string name="select_date">Choose a date</string>
+    <string name="show_me">Show</string>
+
+    <!--Меры и типы-->
+    <string name="placeholder_cant">%s %s</string>
+    <string name="cant_type_pc">PC</string>
+    <string name="cant_type_kg">Kg</string>
+    <string name="cant_type_g">g</string>
+    <string name="cant_type_l">L</string>
+
+    <string name="type_none">General</string>
+    <string name="type_product">Products</string>
+    <string name="type_veg_fruit">Greens</string>
+    <string name="type_meat">Meat</string>
+    <string name="type_cereal">Cereals</string>
+    <string name="type_sweets">Sweets</string>
+    <string name="type_snacks">Snacks</string>
+    <string name="type_drinks">Beverages</string>
+    <string name="type_milk">Dairy</string>
+    <string name="type_non_food">Non-food</string>
+
+
+
+    <!--Настройки -->
+    <string name="settings">Settings</string>
+    <string name="main_settings">Main settings</string>
+    <string name="undo_delete">Confirm deletion</string>
+    <string name="date_format_text">Date format</string>
+    <string-array name="dater_format_array_text">
+        <item>dd.MM.YY</item>
+        <item>dd.MM.YYYY</item>
+        <item>MM.dd.YY</item>
+        <item>MM.dd.YYYY</item>
+        <item>YYYY.MM.dd</item>
+    </string-array>
+    <string-array name="dater_format_array_values">
+        <item>dd.MM.YY</item>
+        <item>dd.MM.YYYY</item>
+        <item>MM.dd.YY</item>
+        <item>MM.dd.YYYY</item>
+        <item>YYYY.MM.dd</item>
+    </string-array>
+    <string name="group_text">Available groups</string>
+    <string name="group_hint_text">Choose from the proposed list an option of categories setting that will be displayed when you select it</string>
+    <string-array name="group_array_text">
+        <item>Full</item>
+        <item>Extended</item>
+        <item>Basic</item>
+        <item>Minimal</item>
+    </string-array>
+    <string-array name="group_array_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+
+    <!-- Обучение -->
+    <string name="prompt1_primary">Welcome!</string>
+    <string name="prompt1_secondary">Click on the button to add a new list</string>
+    <string name="prompt2_primary">Date picker</string>
+    <string name="prompt2_secondary">You can define a target date for the list, but it is optional</string>
+    <string name="prompt3_primary">Icon selection</string>
+    <string name="prompt3_secondary">Choose your preferred image</string>
+    <string name="prompt4_primary">Quick sort</string>
+    <string name="prompt4_secondary">You can quickly sort the list by clicking on this button</string>
+    <string name="prompt5_primary">Fast control</string>
+    <string name="prompt5_secondary">Swipe an item to the left to edit it. Swipe it to the right to remove. Hold to move.</string>
+
+    <!-- OnBoarding Screen -->
+    <string name="splash_1_title">Welcome</string>
+    <string name="splash_1_text">Flex Shopping List is a flexible, fast and intuitive shopping list.</string>
+    <string name="splash_2_title">Flexibility</string>
+    <string name="splash_2_text">Choose a product category from the suggested ones or leave it as default. If there is no need to select the date, quantity, icon, then this does not need to be done.</string>
+    <string name="splash_3_title">Speed</string>
+    <string name="splash_3_text">Swipe an object in the list to the left to edit, and to the right to delete. Move them freely or use quick sort. Take advantages of the automatically generated prompts. Work as quickly as possible without losing aesthetics.</string>
+    <string name="splash_4_title">Intuitiveness</string>
+    <string name="splash_4_text">A bright interface with many options will help you concentrate on the most important things.</string>
+    <string name="finish">Finish</string>
+    <string name="next">Next</string>
+
+
+</resources>

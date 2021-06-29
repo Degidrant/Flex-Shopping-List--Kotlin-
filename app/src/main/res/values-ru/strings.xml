@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Основные строки -->
+    <string name="app_name">Списки покупок</string>
+    <string name="main_list">Списки покупок</string>
+    <string name="empty_label" />
+    <string name="settings_label">Настройки</string>
+    <string name="modal_sheet_title">Добавить новый список</string>
+    <string name="modal_sheet_title_hint">Введите название списка</string>
+    <string name="text_helper_title">Отображаемое название списка</string>
+    <string name="modal_sheet_desc_hint">Краткое описание</string>
+    <string name="chip1">Магазин</string>
+    <string name="chip2">Овощи</string>
+    <string name="chip3">Инструменты</string>
+    <string name="modal_subtitle_1">Введите обязательные данные</string>
+    <string name="modal_subtitle_2">Выберите подходящую иконку</string>
+    <string name="dialog_adder_cant_hint">Мера измерения</string>
+    <string name="dialog_adder_header">Добавить в список</string>
+    <string name="dialog_adder_name_hint">Название элемента</string>
+    <string name="dialog_adder_cant_count_hint">Кол-во</string>
+    <string name="dialog_adder_type_hint">Группа (иконка)</string>
+    <string name="adder_title">Добавить новый элемент</string>
+    <string name="undo_message">%s - удалено.</string>
+    <string name="undo">ОТМЕНИТЬ</string>
+    <string name="select_date">Выберите дату</string>
+    <string name="show_me">Просмотреть</string>
+
+    <!--Меры и типы-->
+    <string name="placeholder_cant">%s %s</string>
+    <string name="cant_type_pc">Шт.</string>
+    <string name="cant_type_kg">Кг</string>
+    <string name="cant_type_g">г</string>
+    <string name="cant_type_l">Л</string>
+
+    <string name="type_none">Универсальный</string>
+    <string name="type_product">Продукты</string>
+    <string name="type_veg_fruit">Овощи/фрукты</string>
+    <string name="type_meat">Мясо</string>
+    <string name="type_cereal">Крупы/злаки</string>
+    <string name="type_sweets">Сладости</string>
+    <string name="type_snacks">Закуски/снэки</string>
+    <string name="type_drinks">Напитки</string>
+    <string name="type_milk">Молочн.</string>
+    <string name="type_non_food">Непродовольств.</string>
+
+
+
+    <!--Настройки -->
+    <string name="settings">Настройки</string>
+    <string name="main_settings">Основные настройки</string>
+    <string name="undo_delete">Подтверждать удаление</string>
+    <string name="date_format_text">Формат даты</string>
+    <string-array name="dater_format_array_text">
+        <item>dd.MM.YY</item>
+        <item>dd.MM.YYYY</item>
+        <item>MM.dd.YY</item>
+        <item>MM.dd.YYYY</item>
+        <item>YYYY.MM.dd</item>
+    </string-array>
+    <string-array name="dater_format_array_values">
+        <item>dd.MM.YY</item>
+        <item>dd.MM.YYYY</item>
+        <item>MM.dd.YY</item>
+        <item>MM.dd.YYYY</item>
+        <item>YYYY.MM.dd</item>
+    </string-array>
+    <string name="group_text">Доступные категории</string>
+    <string name="group_hint_text">Выберите из предложенного списка версию списка категорий, которые будут отображаться при её выборе</string>
+    <string-array name="group_array_text">
+        <item>Полная</item>
+        <item>Расширенная</item>
+        <item>Базовая</item>
+        <item>Сокращённая</item>
+    </string-array>
+    <string-array name="group_array_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+
+    <!-- Обучение -->
+    <string name="prompt1_primary">Добро пожаловать!</string>
+    <string name="prompt1_secondary">Нажмите на кнопку, чтобы добавить новый список</string>
+    <string name="prompt2_primary">Выбор даты</string>
+    <string name="prompt2_secondary">Вы можете определить дату для списка, но это не обязательно</string>
+    <string name="prompt3_primary">Выбор иконки</string>
+    <string name="prompt3_secondary">Выберите подходящее вам изображение</string>
+    <string name="prompt4_primary">Быстрая сортировка</string>
+    <string name="prompt4_secondary">Вы можете быстро отсортировать список, нажав на эту кнопку</string>
+    <string name="prompt5_primary">Быстрое управление</string>
+    <string name="prompt5_secondary">Потяните элемент влево, чтобы отредактировать его. Потяните вправо, чтобы удалить. Удерживайте для перемещения.</string>
+
+    <!-- OnBoarding Screen -->
+    <string name="splash_1_title">Добро пожаловать!</string>
+    <string name="splash_1_text">Перед вами Flex Shopping List - гибкий, быстрый и интуитивный список покупок.</string>
+    <string name="splash_2_title">Гибкость</string>
+    <string name="splash_2_text">Выбирайте категорию товара из предложенных или оставьте по умолчанию. Если нет необходимости выбирать дату, количество, иконку, то это и не нужно делать. Всё на ваш выбор.</string>
+    <string name="splash_3_title">Скорость</string>
+    <string name="splash_3_text">Потяните объект в списке влево для редактирования, а вправо для удаления. Свободно их перемещайте или воспользуйтесь быстрой сортировкой. Воспользуйтесь автоматически созданными подсказками. Работайте максимально быстро, не теряя при этом эстетики.</string>
+    <string name="splash_4_title">Интуитивность</string>
+    <string name="splash_4_text">Яркий интерфейс со множеством опций поможет сконцентрировать внимание на необходимом. </string>
+    <string name="finish">Завершить</string>
+    <string name="next">Далее</string>
+
+
+</resources>

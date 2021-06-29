@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:title="@string/main_settings">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="undo_delete"
+            android:title="@string/undo_delete" />
+        <ListPreference
+            android:defaultValue="dd.MM.YY"
+            android:entries="@array/dater_format_array_text"
+            android:entryValues="@array/dater_format_array_values"
+            android:key="dateformat"
+            android:title="@string/date_format_text" />
+        <ListPreference
+            android:defaultValue="4"
+            android:entries="@array/group_array_text"
+            android:entryValues="@array/group_array_values"
+            android:key="group_pref"
+            android:summary="@string/group_hint_text"
+            android:title="@string/group_text" />
+    </PreferenceCategory>
+</PreferenceScreen>
